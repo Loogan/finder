@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, rgb(105, 8, 90), rgba(0, 22, 69, 1));
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main h1 {
+  font-family: "Lobster", sans-serif;
+}
+
+main h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+main a {
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  padding: 0.7rem 0.7rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+main a:hover {
+  background-color: #7e7e7e;
+}
+
+@media screen and (max-width: 600px) {
+  main h1 {
+    font-size: 2rem;
+  }
+
+  main h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
